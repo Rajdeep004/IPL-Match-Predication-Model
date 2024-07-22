@@ -1,0 +1,19 @@
+{
+	"name": "nuxt-app",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev --host",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"dependencies": {
+		"@formkit/auto-animate": "^0.8.2",
+		"@nuxt/fonts": "^0.7.1",
+		"@nuxt/ui": "^2.17.0",
+		"nuxt": "^3.12.4",
+		"vue": "latest"
+	}
+}
